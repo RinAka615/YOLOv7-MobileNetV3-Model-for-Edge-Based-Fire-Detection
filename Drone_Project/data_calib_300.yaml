@@ -1,0 +1,8 @@
+path: D:/WorkSpace/DA1/RGBT_Dataset
+train: images/train
+val: images/calib_300  # <-- Chỉ định YOLO cấu hình quét đúng 300 ảnh này thôi
+
+names:
+  0: smoke
+  1: fire
+  2: person

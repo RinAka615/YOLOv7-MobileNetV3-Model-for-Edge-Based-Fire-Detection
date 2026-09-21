@@ -1,0 +1,21 @@
+description: Ultralytics YOLOv8-mobilenetv3 model trained on /kaggle/working/data_drone_bw.yaml
+author: Ultralytics
+date: '2026-06-17T14:03:26.644443'
+version: 8.4.68
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: smoke
+  1: fire
+  2: person
+args:
+  batch: 1
+  half: true
+channels: 3
+end2end: false

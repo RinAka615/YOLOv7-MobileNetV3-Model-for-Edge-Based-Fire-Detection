@@ -1,0 +1,7 @@
+# Xóa bỏ dòng path cũ đi, trỏ thẳng đường dẫn tuyệt đối vào train và val
+train: D:\WorkSpace\DA1\RGBT_Dataset\images\train
+val: D:\WorkSpace\DA1\RGBT_Dataset\images\test
+
+# Thông tin class giữ nguyên
+nc: 3
+names: ['smoke', 'fire', 'person']
